@@ -1,31 +1,19 @@
 <script>
+	import Login from './components/Login.svelte';
 
-	export let name;
 </script>
-
-<main>
-	<h1 class="mb-2">Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<div class="main">
+	<div class="d-flex justify-content-center align-items-center align-content-center">
+		<Login />
+	</div>
+</div>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+	.main{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background: linear-gradient(90deg, rgba(96,80,161,1) 0%, rgba(76,71,153,0.9778411608784139) 20%, rgba(0,172,255,1) 100%);
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>
