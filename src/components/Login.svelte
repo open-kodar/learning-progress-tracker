@@ -2,7 +2,7 @@
 
 </script>
 
-  <div class="card w-50">
+  <div class="card w-25">
     <div class="card-body">
       <div class="form-group">
         <label for="exampleFormControlInput1">Full Name</label>

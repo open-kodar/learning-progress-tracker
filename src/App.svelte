@@ -3,7 +3,7 @@
 
 </script>
 <div class="main">
-	<div class="d-flex justify-content-center align-items-center align-content-center">
+	<div class="d-flex justify-content-center align-items-center align-content-center h-100">
 		<Login />
 	</div>
 </div>
